@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pedidos </title>
+    <link rel="icon" href="./imágenes/Santanaicono.ico">
+</head>
+<body>
+    <header>
+        <h1> Pastelería Santana </h1>
+    </header>
+
+    <div>
+        <img src = "./imágenes/Santana.png" alt = "Logo Pastelería Santana"/>
+    </div>
+
+    <nav>
+        <a href = "./Inicio.html"> Inicio </a>
+        <a href = "./Productos.html"> Productos </a>
+        <a href = "./Pedidos.html"> Pedidos </a>
+        <a href = "./Info.html"> Información </a>
+        <a href = "./Administrador.html"> Administrador </a>
+    </nav>
+
+    <section>
+        <h2> Pedidos </h2>
+        <form action = "">
+            <p> Selección de pasteles </p>
+            <input type="checkbox" id="Chocolate" name="Chocolate" value="Chocolate">
+            <label for="Chocolate">Chocolate</label>
+            <input type = "number" id = "ChocolateNumber" name = "ChocolateNumber" placeholder = "¿Cuántos?">
+            <br>
+
+            <input type="checkbox" id="Mermelada" name="Mermelada" value="Mermelada">
+            <label for="Mermelada">Mermelada</label>
+            <input type = "number" id = "MermeladaNumber" name = "MermeladaNumber" placeholder = "¿Cuántos?">
+            <br>
+            
+            <input type="checkbox" id="Vainilla" name="Vainilla" value="Vainilla">
+            <label for="Vainilla">Vainilla</label>
+            <input type = "number" id = "VainillaNumber" name = "VainillaNumber" placeholder = "¿Cuántos?">
+            <br>
+            
+            <input type="checkbox" id="Fresa" name="Fresa" value="Fresa">
+            <label for="Fresa">Fresa</label>
+            <input type = "number" id = "FresaNumber" name = "FresaNumber" placeholder = "¿Cuántos?">
+            <br>
+
+            <input type="checkbox" id="Lucuma" name="Lucuma" value="Lucuma">
+            <label for="Lucuma">Lúcuma</label>
+            <input type = "number" id = "LucumaNumber" name = "LucumaNumber" placeholder = "¿Cuántos?">
+            <br><br>
+
+            <p> Selección de adornos </p>
+            <input type="checkbox" id="Fondant" name="Fondant" value="Fondant">
+            <label for="Fondant">Fondant</label>
+            <br>
+
+            <input type="checkbox" id="Glaseados" name="Glaseados" value="Glaseados">
+            <label for="Glaseados">Glaseados</label>
+            <br>
+            
+            <input type="checkbox" id="Praliné" name="Praliné" value="Praliné">
+            <label for="Praliné">Praliné</label>
+
+            <br>
+            
+            <input type="checkbox" id="Merengues" name="Merengues" value="Merengues">
+            <label for="Merengues">Merengues</label>
+            <br>
+
+            <input type="checkbox" id="Caramelos" name="Caramelos" value="Caramelos">
+            <label for="Caramelos">Caramelos</label>
+
+
+            <p> Ingrese sus datos: </p>
+
+            <label for = "Nombre"> Nombre </label>
+            <br>
+            <input type = "text" id = "Nombre" name = "Nombre" placeholder = "¿Cómo te llamas?">
+            <br><br>
+
+            <label for = "Telefono"> Telefono </label>
+            <br>
+            <input type = "tel" id = "Telefono" name = "Telefono" placeholder = "¿Tu teléfono?">
+            <br><br>
+
+            <label for = "Correo"> Correo electrónico </label>
+            <br>
+            <input type = "email" id = "Correo" name = "Correo" placeholder = "¿Cuál es su correo?">
+            <br><br>
+            <button type = "submit"> Enviar pedido </button>
+            <br><br>
+        </form>
+    </section>
+</body>
+</html>
